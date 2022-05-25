@@ -41,13 +41,13 @@ $ git log p  <- auxilia com mais informações sobre os commits
 ```
 &nbsp;
 &nbsp;       
-**3. Branches** 
+**3. Branches**    
 Criando uma nova branch
 ```
 $ git checkout -b nome-da-nova-branch
 ```
 
-Listando todas as branches existentes **(branch atual está destacada em verde)**
+Listando todas as branches existentes *(branch atual estará destacada em verde)*
 ```
 $ git branch     
 ```
