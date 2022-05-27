@@ -45,7 +45,7 @@ Retirando um arquivo da gravação
 ```sh
 $ git reset HEAD nome-do-arquivo
 ```
-Retirando um commit da gravação  
+Retirando um commit (o último) da gravação  
 ```sh
 # aqui é desfeito o último commit
 $ git reset HEAD~1   
@@ -72,11 +72,11 @@ $ git log -p -2
 ```
 ```sh
 # para retornar estatísticas sobre os commits realizados
-$ git log --stat  -2  
+$ git log --stat -2  
 ```
 ```sh
 # para retornar o log resumido em uma única linha
-$ git log --prety-oneline  -2 
+$ git log --prety-oneline
 ```
 ```sh
 # neste exemplo, para retornar o log dos commits realizados nos 2 últimos dias
@@ -84,7 +84,7 @@ $ git log --since=2.days
 ```
 &nbsp;
 &nbsp;       
-**6. Branches** 
+**6. Branches**  
 Criando um novo branch:
 ```sh
 $ git branch nome-do-novo-branch
@@ -94,7 +94,7 @@ Criando e sendo redirecionado para um novo branch:
 $ git checkout -b nome-do-novo-branch
 ```
 
-Listando todos os branches existentes: *(branch em trabalho estará destacado em verde)*
+Listando todos os branches existentes: *(branch em trabalho estará destacado em verde, caso haja mais de um)*
 ```sh
 $ git branch     
 ```
