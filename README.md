@@ -139,10 +139,8 @@ $ git clone colar-link-aqui
 # o link acima é o endereço do repositório a ser copiado do GitHub
 ```
 &nbsp;
-&nbsp;     
-<div align="center">
 ---
+&nbsp;     
 :computer: &nbsp; **Fontes consultadas:**  
 [GitHub Docs](https://docs.github.com/en/get-started)  
 [Bitbucket Support](https://support.atlassian.com/bitbucket-cloud/docs/git-and-mercurial-commands/)
-</div>
