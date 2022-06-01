@@ -140,6 +140,9 @@ $ git clone colar-link-aqui
 ```
 &nbsp;
 &nbsp;     
+<div align="center">
+---
 :computer: &nbsp; **Fontes consultadas:**  
-[GitHub Docs](https://docs.github.com/en/get-started)
+[GitHub Docs](https://docs.github.com/en/get-started)  
 [Bitbucket Support](https://support.atlassian.com/bitbucket-cloud/docs/git-and-mercurial-commands/)
+</div>
