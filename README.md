@@ -20,17 +20,22 @@ Inicializando um repositório Git:
 mkdir nome-do-diretorio
 # Acessando o diretório
 cd nome-do-diretorio/   
-# Indicando ao Git que este será o diretório usado para versionamento do projeto
+# Indicando ao Git que este será o diretório local usado para versionamento do projeto
 $ git init 
 ```
 &nbsp;
 &nbsp;       
-**3. Modificando e gravando arquivos**   
+**3. Adicionando arquivos ao sistema de versionamento de controle**   
 Adicionando um arquivo para ser gravado:
 ```sh
 $ git add nome-do-arquivo
 ```
-Realizando a gravação de alteração no projeto junto com uma mensagem de log:
+```sh
+# para adicionar todos os arquivos de um diretório, de acordo com a sua extensão
+$ git add *.txt
+$ git add *.js
+```
+Realizando a gravação das alterações do projeto (junto com uma mensagem de log):
 ```sh
 $ git commit -m  "inclua breve descrição da atualização aqui"
 ```
@@ -53,7 +58,7 @@ $ git reset HEAD~1
 &nbsp;
 &nbsp;   
 **5. Examinando situações**   
-Para exibir aquivos rastreados e/ou atualizações realizadas:
+Listando aquivos rastreados e/ou alterações realizadas:
 ```sh
 $ git status
 ```
@@ -121,7 +126,7 @@ $ git remote add origin colar-link-aqui
 # o link cima é o endereço do repositório criado no GitHub
 ```
 
-Subindo modificações locais para o repositório remoto:
+Enviando as alterações para o repositório remoto:
 ```sh
 $ git push origin master  
 # irá abrir janela de autenticação do GitHub
@@ -133,3 +138,8 @@ $ git push origin master
 $ git clone colar-link-aqui  
 # o link acima é o endereço do repositório a ser copiado do GitHub
 ```
+&nbsp;
+&nbsp;     
+:computer: &nbsp; **Fontes consultadas:**  
+[GitHub Docs](https://docs.github.com/en/get-started)
+[Bitbucket Support](https://support.atlassian.com/bitbucket-cloud/docs/git-and-mercurial-commands/)
