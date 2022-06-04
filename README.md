@@ -25,21 +25,25 @@ $ git init
 ```
 &nbsp;
 &nbsp;       
-**3. Adicionando arquivos ao sistema de versionamento de controle**   
-Adicionando um arquivo para ser gravado:
+**3. Adicionando arquivos e registrando alterações**   
+Adicionando um arquivo ao versionamento de controle:
 ```sh
 $ git add nome-do-arquivo
 ```
 ```sh
+# para adicionar todos os arquivos de um diretório
+$ git add .
+```
+```sh
 # para adicionar todos os arquivos de um diretório, de acordo com a sua extensão
-$ git add *.txt
+$ git add *.py
 $ git add *.js
 ```
-Realizando a gravação das alterações do projeto (junto com uma mensagem de log):
+Registrando as alterações do projeto (junto com uma mensagem de log):
 ```sh
-$ git commit -m  "inclua breve descrição da atualização aqui"
+$ git commit -m  "inclua breve descrição da alteração aqui"
 ```
-Alterando mensagem enviada de commit:
+Alterando a mensagem de commit:
 ```sh
 $ git commit --amend -m  "inclua a nova descrição da atualização aqui"
 ```
@@ -119,28 +123,34 @@ $ git checkout master
 ``` 
 &nbsp;
 &nbsp;       
-**7. Enviando as modificações**    
+**7. Enviando as modificações para a nuvem**    
 Criando um repositório remoto:
 ```sh
 $ git remote add origin colar-link-aqui
-# o link cima é o endereço do repositório criado no GitHub
+# o link acima é o endereço do repositório criado no GitHub
 ```
 
-Enviando as alterações para o repositório remoto:
+Enviando os arquivos ou alterações para o repositório remoto:
 ```sh
 $ git push origin master  
 # irá abrir janela de autenticação do GitHub
 ```
 &nbsp;
 &nbsp;     
-**8. Baixando arquivos para uma máquina local com Git**
+**8. Criando uma cópia de um repositório da nuvem para a máquina local**
 ```sh
 $ git clone colar-link-aqui  
 # o link acima é o endereço do repositório a ser copiado do GitHub
 ```
 &nbsp;
+&nbsp;   
+**8. Atualizando repositório local com base no repositório na nuvem**
+```sh
+$ git pull
+```
+&nbsp;
+&nbsp; 
 ---
-&nbsp;     
-:computer: &nbsp; **Fontes consultadas:**  
+:bookmark_tabs: **Fontes consultadas:**  
 [GitHub Docs](https://docs.github.com/en/get-started)  
 [Bitbucket Support](https://support.atlassian.com/bitbucket-cloud/docs/git-and-mercurial-commands/)
