@@ -71,7 +71,7 @@ $ git reset HEAD~1
 ```
 &nbsp;
 &nbsp;   
-**5. Examinando situações**   
+**5. Examinando o histórico de alterações**   
 ---
 Listando aquivos rastreados e/ou alterações realizadas:
 ```sh
@@ -79,11 +79,10 @@ $ git status
 ```
 Visualizando o histórico das alterações:
 ```sh
-# para listar todo o histórico  
 $ git log   
 ```
 ```sh
-# para auxiliar com mais informações sobre os commits
+# para auxiliar com maiores informações sobre os commits
 $ git log -p  
 ```
 ```sh
@@ -103,8 +102,15 @@ $ git log --prety-oneline
 $ git log --since=2.days 
 ```
 &nbsp;
+&nbsp;   
+**6. Vereificando diferenças entre versões**   
+---
+```sh
+$ git diff
+```
+&nbsp;
 &nbsp;       
-**6. Branches**  
+**7. Branches**  
 ---
 Criando um novo branch:
 ```sh
@@ -135,7 +141,7 @@ $ git checkout master
 ``` 
 &nbsp;
 &nbsp;       
-**7. Enviando as modificações para a nuvem**    
+**8. Enviando as modificações para a nuvem**    
 ---
 Criando um repositório remoto:
 ```sh
@@ -150,7 +156,7 @@ $ git push origin master
 ```
 &nbsp;
 &nbsp;     
-**8. Criando uma cópia de um repositório da nuvem para a máquina local**
+**9. Criando uma cópia de um repositório da nuvem para a máquina local**
 ---
 ```sh
 $ git clone colar-link-aqui  
@@ -158,7 +164,7 @@ $ git clone colar-link-aqui
 ```
 &nbsp;
 &nbsp;   
-**9. Atualizando repositório local com base no repositório na nuvem**
+**10. Atualizando repositório local com base no repositório na nuvem**
 ---
 ```sh
 $ git pull
@@ -167,22 +173,30 @@ $ git pull
 &nbsp;   
 **Extra: Utilizando o editor de texto Vim**  
 ---
-**Acessando o modo de edição**
+**Para criar, abrir ou editar um arquivo**
  
 ```
 $ vim nome-do-arquivo
 ```
 
-**Entrando no modo insert:**
+**Entrando no modo de inserção**
 
 ```
-basta digitar->  i
+basta teclar->  i
 ````
-**Saindo do modo insert**
+**Saindo do modo de inserção**
 ```
 basta teclar->  ESC
 ````
-Para salvar o conteúdo e sair do modo de edição:
+**Para salvar o conteúdo**
+```
+basta teclar->  :w
+````
+**Para sair do modo de edição**
+```
+basta teclar->  :q
+````
+**Para salvar o conteúdo e sair do modo de edição**
 ```
 basta teclar->  :wq
 ````
