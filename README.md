@@ -108,7 +108,7 @@ $ git log --since=2.days
 ```
 &nbsp;
 &nbsp;   
-**6. Vereificando diferenças entre versões**   
+**6. Verificando diferenças entre versões**   
 ---
 ```sh
 $ git diff
