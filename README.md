@@ -35,16 +35,16 @@ $ git init
 &nbsp;       
 **3. Adicionando arquivos e registrando alterações**   
 ---
-Adicionando um arquivo ao versionamento de controle:
 ```sh
+# Adicionando um arquivo ao versionamento de controle
 $ git add nome-do-arquivo
 ```
 ```sh
-# para adicionar todos os arquivos de um diretório
+# Adicionando todos os arquivos de um diretório de uma só vez
 $ git add .
 ```
 ```sh
-# para adicionar todos os arquivos de um diretório, de acordo com a sua extensão
+# Adicionando todos os arquivos de um diretório, de acordo com a sua extensão
 $ git add *.py
 $ git add *.js
 ```
@@ -60,7 +60,12 @@ $ git commit --amend -m  "inclua a nova descrição da atualização aqui"
 &nbsp;   
 **4. Desfazendo alterações**   
 ---
-Retirando um arquivo da gravação  
+Retornando o arquivo para antes da edição (antes dele ter sido adicionado ao stage):  
+```sh
+$ git checkout nome-do-arquivo
+```
+&nbsp;
+Retirando um arquivo da gravação (depois dele ter sido adicionado ao stage):  
 ```sh
 $ git reset HEAD nome-do-arquivo
 ```
@@ -147,12 +152,12 @@ Criando um repositório remoto:
 ```sh
 $ git remote add origin colar-link-aqui
 # o link acima é o endereço do repositório criado no GitHub
+# 'origin' é o nome default do repositório; se desejar, pode ser alterado
 ```
 
 Enviando os arquivos ou alterações para o repositório remoto:
 ```sh
 $ git push origin master  
-# irá abrir janela de autenticação do GitHub
 ```
 &nbsp;
 &nbsp;     
@@ -179,24 +184,28 @@ $ git pull
 $ vim nome-do-arquivo
 ```
 
-**Entrando no modo de inserção**
+**Para entrar no modo insert**
 
 ```
 basta teclar->  i
 ````
-**Saindo do modo de inserção**
+**Para sair do modo insert**
 ```
 basta teclar->  ESC
 ````
-**Para salvar o conteúdo**
+**Para salvar o arquivo**
 ```
 basta teclar->  :w
 ````
-**Para sair do modo de edição**
+**Para salvar novo nome de arquivo**
+```
+basta teclar-> :w novo-nome-do-arquivo
+````
+**Para sair do editor**
 ```
 basta teclar->  :q
 ````
-**Para salvar o conteúdo e sair do modo de edição**
+**Para salvar o conteúdo e sair do editor**
 ```
 basta teclar->  :wq
 ````
