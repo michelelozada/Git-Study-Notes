@@ -151,8 +151,9 @@ $ git branch -D nome-do-branch
 ``` 
 &nbsp;
 &nbsp;       
-**8. Unindo branches**    
-Fazendo merge:
+**8. Unindo branches**  
+---
+Fazendo o merge:
 ```sh
 $ git merge nome-do-branch-a-ser-mesclado    
 ``` 
@@ -196,7 +197,7 @@ $ git pull
 2 - Especificar nele quais os arquivos, pastas ou extensões (ex: *.txt) que não se deseja que sejam 'trackeados' pelo Git
 ```
 &nbsp;
-&nbsp; 
+&nbsp;   
 **Extra: Utilizando o editor de texto Vim**  
 ---
 **Para criar, abrir ou editar um arquivo**
@@ -234,7 +235,7 @@ basta teclar->  :wq
 &nbsp; 
 ---
 :bookmark_tabs: **Fontes consultadas:**  
-[Git - Documentation](http://git-scm.com/docs)
-[Git e GitHub para Iniciantes (por Willian Justen)](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A)  
-[GitHub Docs](https://docs.github.com/en/get-started/getting-started-with-git)  
+[Git - Documentation](http://git-scm.com/docs)   
+[Git e GitHub para Iniciantes (por Willian Justen)](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A)    
+[GitHub Docs](https://docs.github.com/en/get-started/getting-started-with-git)    
 [Bitbucket Support](https://support.atlassian.com/bitbucket-cloud/docs/git-and-mercurial-commands/)
