@@ -144,9 +144,22 @@ Voltando para o branch master:
 ```sh
 $ git checkout master    
 ``` 
+
+Apagando um branch:
+```sh
+$ git branch -D nome-do-branch    
+``` 
 &nbsp;
 &nbsp;       
-**8. Enviando as modificações para a nuvem**    
+**8. Unindo branches**    
+Fazendo merge:
+```sh
+$ git merge nome-do-branch-a-ser-mesclado    
+``` 
+
+&nbsp;
+&nbsp;       
+**9. Enviando as modificações para a nuvem**    
 ---
 Criando um repositório remoto:
 ```sh
@@ -161,7 +174,7 @@ $ git push origin master
 ```
 &nbsp;
 &nbsp;     
-**9. Criando uma cópia de um repositório da nuvem para a máquina local**
+**10. Criando uma cópia de um repositório da nuvem para a máquina local**
 ---
 ```sh
 $ git clone colar-link-aqui  
@@ -169,13 +182,21 @@ $ git clone colar-link-aqui
 ```
 &nbsp;
 &nbsp;   
-**10. Atualizando repositório local com base no repositório na nuvem**
+**11. Atualizando repositório local com base no repositório na nuvem**
 ---
 ```sh
 $ git pull
 ```
 &nbsp;
 &nbsp;   
+**Extra: Criando um arquivo .gitignore**
+---
+```sh
+1 - Criar aquivo de texto chamado: .gitignore
+2 - Especificar nele quais os arquivos, pastas ou extensões (ex: *.txt) que não se deseja que sejam 'trackeados' pelo Git
+```
+&nbsp;
+&nbsp; 
 **Extra: Utilizando o editor de texto Vim**  
 ---
 **Para criar, abrir ou editar um arquivo**
@@ -213,5 +234,7 @@ basta teclar->  :wq
 &nbsp; 
 ---
 :bookmark_tabs: **Fontes consultadas:**  
-[GitHub Docs](https://docs.github.com/en/get-started)  
+[Git - Documentation](http://git-scm.com/docs)
+[Git e GitHub para Iniciantes (por Willian Justen)](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A)  
+[GitHub Docs](https://docs.github.com/en/get-started/getting-started-with-git)  
 [Bitbucket Support](https://support.atlassian.com/bitbucket-cloud/docs/git-and-mercurial-commands/)
