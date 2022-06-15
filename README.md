@@ -202,20 +202,20 @@ $ git pull
 &nbsp;   
 **Extra: Comandos úteis do Linux**  
 ---
-`cd`: acessar um diretório. Ao digitar `cd..`, você volta ao diretório anterior.  
+`cd`: acessar um diretório      
 `ls`: listar os arquivos do diretório em que o usuário se encontra   
 `mkdir`: criar um diretório   
-`pwd`: exibir o diretório atual em que o usuário se encontra
+`pwd`: exibir o diretório em que o usuário se encontra  
 `clear`: limpar a tela do terminal
 
 **Utilizando o editor de texto Vim**  
 `$ vim nome-do-arquivo`:  para criar, abrir ou editar um arquivo  
-`i`: Para entrar no modo insert  
-`ESC`: Para sair do modo insert  
-`:w`: Para salvar o arquivo  
-`:w novo-nome-do-arquivo`: Para salvar novo nome de arquivo  
-`:q`: Para sair do editor  
-`:wq`: Para salvar o conteúdo e sair do editor
+`i`: para entrar no modo insert  
+`ESC`: para sair do modo insert  
+`:w`: para salvar o arquivo  
+`:w novo-nome-do-arquivo`: para salvar novo nome de arquivo  
+`:q`: para sair do editor  
+`:wq`: para salvar o conteúdo e sair do editor
 
 &nbsp;
 &nbsp; 
