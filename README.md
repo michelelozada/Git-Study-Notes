@@ -19,7 +19,7 @@ $ git config user.email
 ```
 &nbsp;
 &nbsp;   
-**2. Inicializando um repositório Git:**  
+**2. Inicializando um repositório Git**  
 ---
 ```sh
 # Criando um diretório para o projeto
@@ -36,7 +36,7 @@ $ git init
 **3. Adicionando arquivos e registrando alterações**   
 ---
 ```sh
-# Adicionando um arquivo ao versionamento de controle
+# Adicionando um arquivo para ser rastreado
 $ git add nome-do-arquivo
 ```
 ```sh
@@ -54,7 +54,7 @@ $ git commit -m  "inclua breve descrição da alteração aqui"
 ```
 Alterando a mensagem de commit:
 ```sh
-$ git commit --amend -m  "inclua a nova descrição da atualização aqui"
+$ git commit --amend -m  "inclua a nova descrição da alteração aqui"
 ```
 &nbsp;
 &nbsp;   
@@ -69,19 +69,21 @@ Retirando um arquivo da gravação (depois dele ter sido adicionado ao stage):
 ```sh
 $ git reset HEAD nome-do-arquivo
 ```
-Retirando um commit (o último) da gravação  
+Desfazendo o último commit da gravação  
 ```sh
-# aqui é desfeito o último commit
 $ git reset HEAD~1   
 ```
 &nbsp;
 &nbsp;   
-**5. Examinando o histórico de alterações**   
+**5. Exibindo o estado de um arquivo no momento**   
 ---
-Listando aquivos rastreados e/ou alterações realizadas:
 ```sh
 $ git status
 ```
+&nbsp;
+&nbsp;   
+**6. Examinando o histórico de alterações**   
+---
 Visualizando o histórico das alterações:
 ```sh
 $ git log   
@@ -108,14 +110,14 @@ $ git log --since=2.days
 ```
 &nbsp;
 &nbsp;   
-**6. Verificando diferenças entre versões**   
+**7. Verificando diferenças entre versões**   
 ---
 ```sh
 $ git diff
 ```
 &nbsp;
 &nbsp;       
-**7. Branches**  
+**8. Branches**  
 ---
 Criando um novo branch:
 ```sh
@@ -151,7 +153,7 @@ $ git branch -D nome-do-branch
 ``` 
 &nbsp;
 &nbsp;       
-**8. Unindo branches**  
+**9. Unindo branches**  
 ---
 Fazendo o merge:
 ```sh
@@ -160,7 +162,7 @@ $ git merge nome-do-branch-a-ser-mesclado
 
 &nbsp;
 &nbsp;       
-**9. Enviando as modificações para a nuvem**    
+**10. Enviando as modificações para a nuvem**    
 ---
 Criando um repositório remoto:
 ```sh
@@ -175,7 +177,7 @@ $ git push origin master
 ```
 &nbsp;
 &nbsp;     
-**10. Criando uma cópia de um repositório da nuvem para a máquina local**
+**11. Criando uma cópia de um repositório da nuvem para a máquina local**
 ---
 ```sh
 $ git clone colar-link-aqui  
@@ -183,14 +185,14 @@ $ git clone colar-link-aqui
 ```
 &nbsp;
 &nbsp;   
-**11. Atualizando repositório local com base no repositório na nuvem**
+**12. Atualizando repositório local com base no repositório na nuvem**
 ---
 ```sh
 $ git pull
 ```
 &nbsp;
 &nbsp;   
-**Extra: Criando um arquivo .gitignore**
+**13. Criando um arquivo .gitignore**
 ---
 ```sh
 1 - Criar aquivo de texto chamado: .gitignore
@@ -198,39 +200,23 @@ $ git pull
 ```
 &nbsp;
 &nbsp;   
-**Extra: Utilizando o editor de texto Vim**  
+**Extra: Comandos úteis do Linux**  
 ---
-**Para criar, abrir ou editar um arquivo**
- 
-```
-$ vim nome-do-arquivo
-```
+`cd`: acessar um diretório. Ao digitar `cd..`, você volta ao diretório anterior.  
+`ls`: listar os arquivos do diretório em que o usuário se encontra   
+`mkdir`: criar um diretório   
+`pwd`: exibir o diretório atual em que o usuário se encontra
+`clear`: limpar a tela do terminal
 
-**Para entrar no modo insert**
+**Utilizando o editor de texto Vim**  
+`$ vim nome-do-arquivo`:  para criar, abrir ou editar um arquivo  
+`i`: Para entrar no modo insert  
+`ESC`: Para sair do modo insert  
+`:w`: Para salvar o arquivo  
+`:w novo-nome-do-arquivo`: Para salvar novo nome de arquivo  
+`:q`: Para sair do editor  
+`:wq`: Para salvar o conteúdo e sair do editor
 
-```
-basta teclar->  i
-````
-**Para sair do modo insert**
-```
-basta teclar->  ESC
-````
-**Para salvar o arquivo**
-```
-basta teclar->  :w
-````
-**Para salvar novo nome de arquivo**
-```
-basta teclar-> :w novo-nome-do-arquivo
-````
-**Para sair do editor**
-```
-basta teclar->  :q
-````
-**Para salvar o conteúdo e sair do editor**
-```
-basta teclar->  :wq
-````
 &nbsp;
 &nbsp; 
 ---
