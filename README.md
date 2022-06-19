@@ -28,19 +28,19 @@ $ mkdir nome-do-diretorio
 # Acessando o diretório
 $ cd nome-do-diretorio/   
 
-# Indicando ao Git que este será o diretório local usado para versionamento do projeto
+# Indicando ao Git que este será o diretório local usado para o versionamento do projeto
 $ git init 
 ```
 &nbsp;
 &nbsp;       
-**3. Adicionando arquivos e registrando alterações**   
+**3. Adicionando arquivos à área de stage**   
 ---
 ```sh
-# Adicionando um arquivo para ser rastreado
+# Adicionando um arquivo específico para ser rastreado
 $ git add nome-do-arquivo
 ```
 ```sh
-# Adicionando todos os arquivos de um diretório de uma só vez
+# Adicionando todos os arquivos do diretório de uma só vez
 $ git add .
 ```
 ```sh
@@ -48,6 +48,10 @@ $ git add .
 $ git add *.py
 $ git add *.js
 ```
+&nbsp;
+&nbsp;   
+**4. Realizando o commit das alterações**   
+---
 Registrando as alterações do projeto (junto com uma mensagem de log):
 ```sh
 $ git commit -m  "inclua breve descrição da alteração aqui"
@@ -58,7 +62,7 @@ $ git commit --amend -m  "inclua a nova descrição da alteração aqui"
 ```
 &nbsp;
 &nbsp;   
-**4. Desfazendo alterações**   
+**5. Desfazendo alterações**   
 ---
 Retornando o arquivo para antes da edição (antes dele ter sido adicionado ao stage):  
 ```sh
@@ -75,14 +79,14 @@ $ git reset HEAD~1
 ```
 &nbsp;
 &nbsp;   
-**5. Exibindo o estado de um arquivo no momento**   
+**6. Exibindo o estado de um arquivo no momento**   
 ---
 ```sh
 $ git status
 ```
 &nbsp;
 &nbsp;   
-**6. Examinando o histórico de alterações**   
+**7. Examinando o histórico de alterações**   
 ---
 Visualizando o histórico das alterações:
 ```sh
@@ -110,59 +114,65 @@ $ git log --since=2.days
 ```
 &nbsp;
 &nbsp;   
-**7. Verificando diferenças entre versões**   
+**8. Verificando diferenças entre versões**   
 ---
 ```sh
 $ git diff
 ```
 &nbsp;
 &nbsp;       
-**8. Branches**  
+**9. Branches**  
 ---
-Criando um novo branch:
+Criando uma branch local:
 ```sh
-$ git branch nome-do-novo-branch
-```
-Criando e sendo redirecionado para um novo branch:
-```sh
-$ git checkout -b nome-do-novo-branch
+$ git branch nome-da-nova-branch
 ```
 
-Listando todos os branches existentes: *(branch em trabalho estará destacado em verde, caso haja mais de um)*
+Acessando uma branch:
+```sh
+$ git checkout nome-da-branch
+```
+
+Criando e sendo redirecionado para uma nova branch:
+```sh
+$ git checkout -b nome-da-nova-branch
+```
+
+Listando todas as branches existentes: *(branch em trabalho estará destacada em verde, caso haja mais de uma)*
 ```sh
 $ git branch     
 ```
 ```sh
-# para listar os branches com seus respectivos logs de commits realizados
+# para listar as branches com seus respectivos logs de commits realizados
 $ git branch -v   
 ```
 
-Redirecionando para outro branch do repositório:
+Redirecionando para outra branch do repositório:
 ```sh
-$ git checkout nome-do-outro-branch
+$ git checkout nome-da-outra-branch
 ```
 
-Voltando para o branch master:
+Voltando para a branch master:
 ```sh
 $ git checkout master    
 ``` 
 
-Apagando um branch:
+Deletando uma branch:
 ```sh
-$ git branch -D nome-do-branch    
+$ git branch -d nome-da-branch    
 ``` 
 &nbsp;
 &nbsp;       
-**9. Unindo branches**  
+**10. Unindo as branches**  
 ---
 Fazendo o merge:
 ```sh
-$ git merge nome-do-branch-a-ser-mesclado    
+$ git merge nome-da-branch-a-ser-mesclada    
 ``` 
 
 &nbsp;
 &nbsp;       
-**10. Enviando as modificações para a nuvem**    
+**11. Enviando as modificações para o repositório remoto**    
 ---
 Criando um repositório remoto:
 ```sh
@@ -177,22 +187,22 @@ $ git push origin master
 ```
 &nbsp;
 &nbsp;     
-**11. Criando uma cópia de um repositório da nuvem para a máquina local**
+**12. Criando uma cópia de um repositório remoto para a máquina local**
 ---
 ```sh
-$ git clone colar-link-aqui  
+$ git clone colar-link-do-repositorio-aqui  
 # o link acima é o endereço do repositório a ser copiado do GitHub
 ```
 &nbsp;
 &nbsp;   
-**12. Atualizando repositório local com base no repositório na nuvem**
+**13. Atualizando o repositório local com base nas modificações do repositório remoto**
 ---
 ```sh
 $ git pull
 ```
 &nbsp;
 &nbsp;   
-**13. Criando um arquivo .gitignore**
+**14. Criando um arquivo .gitignore**
 ---
 ```sh
 1 - Criar aquivo de texto chamado: .gitignore
