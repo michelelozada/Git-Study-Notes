@@ -26,21 +26,21 @@ $ git config user.email
 $ mkdir nome-do-diretorio
 
 # Acessando o diretório
-$ cd nome-do-diretorio/   
+$ cd nome-do-diretorio   
 
 # Indicando ao Git que este será o diretório local usado para o versionamento do projeto
 $ git init 
 ```
 &nbsp;
 &nbsp;       
-**3. Adicionando arquivos à área de stage**   
+**3. Adicionando arquivos alterados e/ou não rastreados a staging area**   
 ---
 ```sh
-# Adicionando um arquivo específico para ser rastreado
+# Adicionando um arquivo específico 
 $ git add nome-do-arquivo
 ```
 ```sh
-# Adicionando todos os arquivos do diretório de uma só vez
+# Adicionando todos os arquivos de uma só vez
 $ git add .
 ```
 ```sh
@@ -48,13 +48,17 @@ $ git add .
 $ git add *.py
 $ git add *.js
 ```
+```sh
+# Para retirar um arquivo da staging area
+$ git rm --cached nome-do-arquivo
+```
 &nbsp;
 &nbsp;   
-**4. Realizando o commit das alterações**   
+**4. Efetuando o commit das alterações**   
 ---
-Registrando as alterações do projeto (junto com uma mensagem de log):
+Registrando as alterações do projeto (junto com uma mensagem breve que descreva as alterações):
 ```sh
-$ git commit -m  "inclua breve descrição da alteração aqui"
+$ git commit -m  "inclua a mensagem aqui"
 ```
 Alterando a mensagem de commit:
 ```sh
@@ -210,22 +214,36 @@ $ git pull
 ```
 &nbsp;
 &nbsp;   
+**15. Obtendo ajuda com o Git**
+---
+```
+$ git help
+```
+```
+Caso seja escrito o nome do comando, logo após o git help, abrirá no navegador página do manual com explicações a respeito
+$ git help fetch
+$ git help diff
+```
+&nbsp;
+&nbsp; 
 **Extra: Comandos úteis do Linux**  
 ---
-`cd`: acessar um diretório      
-`ls`: listar os arquivos do diretório em que o usuário se encontra   
-`mkdir`: criar um diretório   
-`pwd`: exibir o diretório em que o usuário se encontra  
-`clear`: limpar a tela do terminal
+`cd` - acessar um diretório      
+`cd..` - sair do diretório  
+`ls` - listar o conteúdo do diretório em que o usuário está no momento    
+`mkdir` - criar um diretório   
+`pwd` - informar o diretório em que o usuário está no momento    
+`clear` - limpar a tela do terminal  
+`exit` - fechar o terminal
 
-**Utilizando o editor de texto Vim**  
-`$ vim nome-do-arquivo`:  para criar, abrir ou editar um arquivo  
-`i`: para entrar no modo insert  
-`ESC`: para sair do modo insert  
-`:w`: para salvar o arquivo  
-`:w novo-nome-do-arquivo`: para salvar novo nome de arquivo  
-`:q`: para sair do editor  
-`:wq`: para salvar o conteúdo e sair do editor
+**Utilizando o editor de texto Vim:**  
+`$ vim nome-do-arquivo` - para criar, abrir ou editar um arquivo  
+`i` - para entrar no modo insert  
+`ESC` - para sair do modo insert  
+`:w` - para salvar o arquivo  
+`:w novo-nome-do-arquivo` - para salvar novo nome de arquivo  
+`:q` - para sair do editor  
+`:wq` - para salvar o conteúdo e sair do editor
 
 &nbsp;
 &nbsp; 
