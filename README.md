@@ -56,7 +56,11 @@ $ git rm --cached nome-do-arquivo
 &nbsp;   
 **4. Efetuando o commit das alterações**   
 ---
-Registrando as alterações do projeto (junto com uma mensagem breve que descreva as alterações):
+Registrando as alterações do projeto:
+```sh
+$ git commit 
+```
+Registrando as alterações do projeto junto com uma mensagem breve que descreva as alterações:
 ```sh
 $ git commit -m  "inclua a mensagem aqui"
 ```
@@ -92,12 +96,24 @@ $ git status
 &nbsp;   
 **7. Examinando o histórico de alterações**   
 ---
-Visualizando o histórico das alterações:
+Visualizando o histórico das alterações realizadas até o momento:
 ```sh
 $ git log   
 ```
+Visualizando o histórico das alterações realizadas apenas em um arquivo específico:
 ```sh
-# para auxiliar com maiores informações sobre os commits
+$ git log nome-do-arquivo  
+```
+```sh
+# para informações das alterações do último commit realizado
+$ git show
+```
+```sh
+# para informações das alterações de um arquivo específico
+$ git show hash-do-commit  
+```
+```sh
+# para auxiliar com maiores informações sobre os commits realizados 
 $ git log -p  
 ```
 ```sh
