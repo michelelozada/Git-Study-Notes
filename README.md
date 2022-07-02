@@ -49,6 +49,10 @@ $ git add *.py
 $ git add *.js
 ```
 ```sh
+# Para exibir arquivos que estão na staging area, mas que ainda não foram commitados
+$ git diff --staged
+```
+```sh
 # Para retirar um arquivo da staging area
 $ git rm --cached nome-do-arquivo
 ```
@@ -72,12 +76,12 @@ $ git commit --amend -m  "inclua a nova descrição da alteração aqui"
 &nbsp;   
 **5. Desfazendo alterações**   
 ---
-Retornando o arquivo para antes da edição (antes dele ter sido adicionado ao stage):  
+Retornando o arquivo para antes da edição (antes dele ter sido adicionado a staging area):  
 ```sh
 $ git checkout nome-do-arquivo
 ```
 &nbsp;
-Retirando um arquivo da gravação (depois dele ter sido adicionado ao stage):  
+Retirando um arquivo da gravação (depois dele ter sido adicionado a staging area):  
 ```sh
 $ git reset HEAD nome-do-arquivo
 ```
@@ -134,10 +138,14 @@ $ git log --since=2.days
 ```
 &nbsp;
 &nbsp;   
-**8. Verificando diferenças entre versões**   
+**8. Comparando diferenças entre arquivos da working area e arquivos da staging area**   
 ---
 ```sh
 $ git diff
+```
+```sh
+# para informações de um arquivo específico
+$ git diff nome-do-arquivo
 ```
 &nbsp;
 &nbsp;       
@@ -189,10 +197,17 @@ Fazendo o merge:
 ```sh
 $ git merge nome-da-branch-a-ser-mesclada    
 ``` 
-
 &nbsp;
-&nbsp;       
-**11. Enviando as modificações para o repositório remoto**    
+&nbsp;  
+**11. Remover um arquivo do repositório**  
+---
+```sh
+$ git rm nome-do-arquivo
+# além disso, deve ser feito o commit para consolidação da exclusão
+``` 
+&nbsp;
+&nbsp;  
+**12. Enviando as modificações para o repositório remoto**    
 ---
 Criando um repositório remoto:
 ```sh
@@ -207,7 +222,7 @@ $ git push origin master
 ```
 &nbsp;
 &nbsp;     
-**12. Criando uma cópia de um repositório remoto para a máquina local**
+**13. Criando uma cópia de um repositório remoto para a máquina local**
 ---
 ```sh
 $ git clone colar-link-do-repositorio-aqui  
@@ -215,28 +230,30 @@ $ git clone colar-link-do-repositorio-aqui
 ```
 &nbsp;
 &nbsp;   
-**13. Atualizando o repositório local com base nas modificações do repositório remoto**
+**14. Atualizando o repositório local com base nas modificações do repositório remoto**
 ---
 ```sh
 $ git pull
 ```
 &nbsp;
 &nbsp;   
-**14. Criando um arquivo .gitignore**
+**15. Criando um arquivo .gitignore**  
 ---
 ```sh
-1 - Criar aquivo de texto chamado: .gitignore
-2 - Especificar nele quais os arquivos, pastas ou extensões (ex: *.txt) que não se deseja que sejam 'trackeados' pelo Git
+# Se o arquivo for criado pelo terminal:
+$ touch .gitignore
+
+# Após criado, incluir ali quais arquivos, pastas ou extensões (ex: *.txt) não se deseja que sejam 'trackeados'.
 ```
 &nbsp;
 &nbsp;   
-**15. Obtendo ajuda com o Git**
+**16. Obtendo ajuda com o Git**
 ---
 ```
 $ git help
 ```
 ```
-Caso seja escrito o nome do comando, logo após o git help, abrirá no navegador página do manual com explicações a respeito
+# Caso seja escrito o nome do comando, logo após o git help, abrirá no navegador página do manual com explicações a respeito
 $ git help fetch
 $ git help diff
 ```
@@ -246,9 +263,12 @@ $ git help diff
 ---
 `cd` - acessar um diretório      
 `cd..` - sair do diretório  
-`ls` - listar o conteúdo do diretório em que o usuário está no momento    
+`ls` - listar o conteúdo do diretório em que o usuário está no momento (exceto arquivos ocultos)   
+`ls -a` - listar o conteúdo do diretório em que o usuário está no momento (inclusive arquivos ocultos)    
 `mkdir` - criar um diretório   
-`pwd` - informar o diretório em que o usuário está no momento    
+`pwd` - informar o diretório em que o usuário está no momento   
+`touch` - para criar um arquivo vazio  
+`cat`- seguido ao nome do arquivo, exibe o conteúdo do arquivo no terminal  
 `clear` - limpar a tela do terminal  
 `exit` - fechar o terminal
 
@@ -264,7 +284,8 @@ $ git help diff
 &nbsp;
 &nbsp; 
 ---
-:bookmark_tabs: **Fontes consultadas:**  
+:bookmark_tabs: **Referências consultadas:**  
+[Curso de Git (por Fábio dos Reis)](https://www.youtube.com/playlist?list=PLucm8g_ezqNq0dOgug6paAkH0AQSJPlIe)  
 [Git - Documentation](http://git-scm.com/docs)   
 [Git e GitHub para Iniciantes (por Willian Justen)](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A)    
 [GitHub Docs](https://docs.github.com/en/get-started/getting-started-with-git)    
