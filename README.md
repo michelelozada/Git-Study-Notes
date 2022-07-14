@@ -166,13 +166,18 @@ Criando e sendo redirecionado para uma nova branch:
 $ git checkout -b nome-da-nova-branch
 ```
 
-Listando todas as branches existentes: *(branch em trabalho estará destacada em verde, caso haja mais de uma)*
+Listando todas as branches existentes no repositório: *(branch em trabalho estará destacada em verde, caso haja mais de uma)*
 ```sh
 $ git branch     
 ```
 ```sh
 # para listar as branches com seus respectivos logs de commits realizados
 $ git branch -v   
+```
+
+Listando as branches existentes no repositório remoto:
+```sh
+$ git branch -r    
 ```
 
 Redirecionando para outra branch do repositório:
