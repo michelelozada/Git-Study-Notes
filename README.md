@@ -252,7 +252,21 @@ $ touch .gitignore
 ```
 &nbsp;
 &nbsp;   
-**16. Obtendo ajuda com o Git**
+**16. Configurando atalhos para comandos Git** 
+```sh
+# o alias pode ser de livre escolha
+$ git config --global alias.st status
+$ git config --global alias.ci commit
+$ git config --global alias.br branch
+
+# depois disso, os comandos assumem os aliases recém-atribuídos
+$ git st
+$ git ci
+$ git br
+```
+&nbsp;
+&nbsp;   
+**17. Obtendo ajuda com o Git**
 ---
 ```
 $ git help
@@ -289,7 +303,7 @@ $ git help diff
 &nbsp;
 &nbsp; 
 ---
-:bookmark_tabs: **Referências consultadas:**  
+:bookmark_tabs: **Referências consultadas para criação deste repositório:**  
 [Curso de Git (por Fábio dos Reis)](https://www.youtube.com/playlist?list=PLucm8g_ezqNq0dOgug6paAkH0AQSJPlIe)  
 [Git - Documentation](http://git-scm.com/docs)   
 [Git e GitHub para Iniciantes (por Willian Justen)](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A)    
