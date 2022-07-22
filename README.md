@@ -253,6 +253,7 @@ $ touch .gitignore
 &nbsp;
 &nbsp;   
 **16. Configurando atalhos para comandos Git** 
+---
 ```sh
 # o alias pode ser de livre escolha
 $ git config --global alias.st status
