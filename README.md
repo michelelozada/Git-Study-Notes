@@ -302,34 +302,43 @@ $ git help diff
 &nbsp;
 &nbsp; 
 ### Extra: Comandos úteis do Linux  
-```
-cd - acessar um diretório      
-cd.. - sair do diretório  
-ls - listar o conteúdo do diretório em que o usuário está no momento (exceto arquivos ocultos)   
-ls -a - listar o conteúdo do diretório em que o usuário está no momento (inclusive arquivos ocultos)    
-mkdir - criar um diretório   
-pwd - informar o diretório em que o usuário está no momento   
-touch - para criar um arquivo vazio  
-cat - seguido ao nome do arquivo, exibe o conteúdo do arquivo no terminal  
-clear - limpar a tela do terminal  
-exit - fechar o terminal
+| Comando | Função
+| :---    | :---
+| cd      | Seguido ao nome do diretório, acessa-o
+| cd ..   | Retrocede um nível de diretório
+| cd /    | Acessa o diretório raiz
+| ls      | Lista o conteúdo do diretório em que o usuário está no momento *(exceto os arquivos ocultos)*   
+| ls -a   | Lista o conteúdo do diretório em que o usuário está no momento *(inclusive os arquivos ocultos)*    
+| mkdir   | Cria um diretório   
+| pwd     | Informa o diretório em que o usuário está no momento   
+| touch   | Cria um arquivo vazio  
+| cat     | Exibe o conteúdo de um arquivo no terminal  
+| clear   | Limpa a tela do terminal  
+| exit    | Fecha o terminal
 
-# Utilizando o editor de texto Vim:
-$ vim nome-do-arquivo - para criar, abrir ou editar um arquivo  
-i - para entrar no modo insert  
-ESC - para sair do modo insert  
-:w - para salvar o arquivo  
-:w novo-nome-do-arquivo - para salvar novo nome de arquivo  
-:q - para sair do editor  
-:wq - para salvar o conteúdo e sair do editor  
- ```
+&nbsp;
+&nbsp; 
+### Utilizando o editor de texto Vim:
+| Comando | Função
+| :---    | :---
+| vim *nome-do-arquivo*  | Abre arquivo
+| i                      | Entra no modo insert  
+| ESC                    | Sai do modo insert  
+| :w                     | Salva o arquivo  
+| :w *novo-arquivo*      | Salva novo nome para arquivo
+| :q                     | Sai do editor  
+| :wq                    | Salva o conteúdo e sai do editor  
+
 [Voltar ao índice](#Índice)
 &nbsp;
      
 &nbsp;     
-#### :bookmark_tabs: Referências consultadas para criação deste repositório:  
-  [Curso de Git (por Fábio dos Reis)](https://www.youtube.com/playlist?list=PLucm8g_ezqNq0dOgug6paAkH0AQSJPlIe)  
-  [Git - Documentation](http://git-scm.com/docs)   
-  [Git e GitHub para Iniciantes (por Willian Justen)](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A)    
-  [GitHub Docs](https://docs.github.com/en/get-started/getting-started-with-git)    
-  [Bitbucket Support](https://support.atlassian.com/bitbucket-cloud/docs/git-and-mercurial-commands/)
+### Referências consultadas para criação deste repositório:  
+| Link  | Nome
+| :---  | :---
+[:bookmark_tabs:](https://www.youtube.com/playlist?list=PLucm8g_ezqNq0dOgug6paAkH0AQSJPlIe) | Curso de Git (por Fábio dos Reis)
+[:bookmark_tabs:](http://git-scm.com/docs) | Git - Documentation 
+[:bookmark_tabs:](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A) | Git e GitHub para Iniciantes (por Willian Justen)
+[:bookmark_tabs:](https://docs.github.com/en/get-started/getting-started-with-git) | GitHub Docs   
+  
+[Voltar ao índice](#Índice)
