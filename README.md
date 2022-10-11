@@ -38,6 +38,12 @@ Consultando a identidade registrada:
 $ git config user.name 
 $ git config user.email 
 ```
+Apagando nome e e-mail setados
+```sh
+$ git config --global --unset user.name
+$ git config --global --unset user.email
+```
+
 [Voltar ao índice](#Índice)
 &nbsp;
 &nbsp;   
@@ -241,7 +247,10 @@ $ git remote add origin colar-link-aqui
 # o link acima é o endereço do repositório criado no GitHub
 # 'origin' é o nome default do repositório; se desejar, pode ser alterado
 ```
-
+Listando os repositórios remotos atualmente conectados ao repositório local
+```sh
+$ git remote -v
+```
 Enviando os arquivos ou alterações para o repositório remoto:
 ```sh
 $ git push origin master  
@@ -310,14 +319,17 @@ $ git help diff
 | ls      | Lista o conteúdo do diretório em que o usuário está no momento *(exceto os arquivos ocultos)*   
 | ls -a   | Lista o conteúdo do diretório em que o usuário está no momento *(inclusive os arquivos ocultos)*    
 | mkdir   | Cria um diretório   
-| pwd     | Informa o diretório em que o usuário está no momento   
 | touch   | Cria um arquivo vazio  
+| mv      | Move um arquivo e/ou diretório
 | cat     | Exibe o conteúdo de um arquivo no terminal  
+| pwd     | Informa o diretório em que o usuário está no momento   
 | clear   | Limpa a tela do terminal  
 | exit    | Fecha o terminal
 
+[Voltar ao índice](#Índice)
 &nbsp;
-&nbsp; 
+     
+&nbsp;  
 ### Utilizando o editor de texto Vim:
 | Comando | Função
 | :---    | :---
