@@ -43,18 +43,15 @@ Apagando nome e e-mail setados
 $ git config --global --unset user.name
 $ git config --global --unset user.email
 ```
-
+Listar todas as configurações 
+```sh
+$ git config --list
+```
 [Voltar ao índice](#Índice)
 &nbsp;
 &nbsp;   
 ### Inicializando um repositório Git 
 ```sh
-# Criando um diretório para o projeto
-$ mkdir nome-do-diretorio
-
-# Acessando o diretório
-$ cd nome-do-diretorio   
-
 # Indicando ao Git que este será o diretório local usado para o versionamento do projeto
 $ git init 
 ```
@@ -217,6 +214,11 @@ Voltando para a branch master:
 $ git checkout master    
 ``` 
 
+Altera o nome da branch principal de master (padrão do Git Bash) para main
+```sh
+$ git branch -M main
+``` 
+
 Deletando uma branch:
 ```sh
 $ git branch -d nome-da-branch    
@@ -268,7 +270,7 @@ $ git clone colar-link-do-repositorio-aqui
 &nbsp;   
 ### Atualizando o repositório local com base nas modificações do repositório remoto
 ```sh
-$ git pull
+$ git pull origin master
 ```
 [Voltar ao índice](#Índice)
 &nbsp;
@@ -280,6 +282,9 @@ $ touch .gitignore
 
 # Após criado, incluir ali quais arquivos, pastas ou extensões (ex: *.txt) não se deseja que sejam 'trackeados'.
 ```
+&nbsp;  
+**:bulb: Dica:** O site **[gitignore.io](https://www.toptal.com/developers/gitignore/)** gera o conteúdo necessário para arquivos .gitignore, de acordo com a linguagem e com a IDE utilizadas (p. ex.: Java + Eclipse, Python + PyCharm, etc.).    
+&nbsp;  
 [Voltar ao índice](#Índice)
 &nbsp;
 &nbsp;   
