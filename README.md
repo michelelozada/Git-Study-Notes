@@ -22,6 +22,7 @@
 1. &nbsp;&nbsp;[Atualizando o repositório local com base nas modificações do repositório remoto](#Atualizando-o-repositório-local-com-base-nas-modificações-do-repositório-remoto)
 1. &nbsp;&nbsp;[Criando um arquivo .gitignore](#Criando-um-arquivo-gitignore)
 1. &nbsp;&nbsp;[Configurando atalhos para comandos Git](#Configurando-atalhos-para-comandos-Git)
+1. &nbsp;&nbsp;[Comandos encadeados](#Comandos-encadeados)
 1. &nbsp;&nbsp;[Obtendo ajuda com o Git](#Obtendo-ajuda-com-o-Git)
 1. &nbsp;&nbsp;[Extra: Comandos úteis do Linux](#Extra-Comandos-úteis-do-Linux)
 &nbsp;
@@ -303,6 +304,14 @@ $ git br
 [Voltar ao índice](#Índice)
 &nbsp;
 &nbsp;   
+### Comandos encadeados  
+Para isso, os comandos devem ser concatenados com `&&`, sendo que o comando subsequente só será executado se o anterior for executado sem problemas.  
+```sh
+$ git add . && git commit -m "Consertada formatação do texto" && git push origin main
+```
+[Voltar ao índice](#Índice)
+&nbsp;
+&nbsp; 
 ### Obtendo ajuda com o Git
 ```
 $ git help
