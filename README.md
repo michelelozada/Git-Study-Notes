@@ -142,7 +142,7 @@ $ git show
 $ git show hash-do-commit  
 ```
 ```sh
-# para auxiliar com maiores informações sobre os commits realizados 
+# para exibir informações e alterações do commit
 $ git log -p  
 ```
 ```sh
@@ -154,8 +154,8 @@ $ git log -p -2
 $ git log --stat -2  
 ```
 ```sh
-# para retornar o log resumido em uma única linha
-$ git log --prety-oneline
+# para retornar o log resumido de cada commit em uma única linha
+$ git log --pretty=oneline
 ```
 ```sh
 # neste exemplo, para retornar o log dos commits realizados nos 2 últimos dias
@@ -366,5 +366,6 @@ $ git help diff
 [:bookmark_tabs:](http://git-scm.com/docs) | Git - Documentation 
 [:bookmark_tabs:](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A) | Git e GitHub para Iniciantes (por Willian Justen)
 [:bookmark_tabs:](https://docs.github.com/en/get-started/getting-started-with-git) | GitHub Docs   
+[:bookmark_tabs:](https://git-school.github.io/visualizing-git/) | Visualizing Git
   
 [Voltar ao índice](#Índice)
