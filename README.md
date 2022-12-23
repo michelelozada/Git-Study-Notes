@@ -359,13 +359,21 @@ $ git help diff
 &nbsp;
      
 &nbsp;     
-### Referências consultadas para criação deste repositório:  
-| Link  | Nome
-| :---  | :---
-[:bookmark_tabs:](https://www.youtube.com/playlist?list=PLucm8g_ezqNq0dOgug6paAkH0AQSJPlIe) | Curso de Git (por Fábio dos Reis)
-[:bookmark_tabs:](http://git-scm.com/docs) | Git - Documentation 
-[:bookmark_tabs:](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A) | Git e GitHub para Iniciantes (por Willian Justen)
-[:bookmark_tabs:](https://docs.github.com/en/get-started/getting-started-with-git) | GitHub Docs   
-[:bookmark_tabs:](https://git-school.github.io/visualizing-git/) | Visualizing Git
-  
-[Voltar ao índice](#Índice)
+<div align="center">
+
+ <details>
+ <summary><strong>Clique aqui para ver as referências consultadas para criação deste repositório</strong></summary>
+
+  &nbsp;
+  &nbsp;   
+  [Curso de Git (por Fábio dos Reis)](https://www.youtube.com/playlist?list=PLucm8g_ezqNq0dOgug6paAkH0AQSJPlIe)  
+  [Git - Documentation](http://git-scm.com/docs)  
+  [Git e GitHub para Iniciantes (por Willian Justen)](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A)  
+  [GitHub Docs](https://docs.github.com/en/get-started/getting-started-with-git)  
+  [Visualizing Git](https://git-school.github.io/visualizing-git/)  
+ </details>
+
+&nbsp;  
+[Voltar ao topo](https://github.com/michelelozada/Comandos-Git-Versionamento-Basico#comandos-git-versionamento-básico)
+
+</div>
