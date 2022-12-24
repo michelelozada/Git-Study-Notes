@@ -1,6 +1,6 @@
 <div align="center">
 	<img src="./assets/git.png">
-	<h1>Comandos Git: Versionamento básico</h1>
+	<h1>Git: Versionamento básico</h1>
 </div>
 &nbsp;
      
@@ -374,6 +374,6 @@ $ git help diff
  </details>
 
 &nbsp;  
-[Voltar ao topo](https://github.com/michelelozada/Comandos-Git-Versionamento-Basico#comandos-git-versionamento-básico)
+[Voltar ao topo](https://github.com/michelelozada/Git-Versionamento-Basico#comandos-git-versionamento-básico)
 
 </div>
