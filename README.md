@@ -374,6 +374,6 @@ $ git help diff
  </details>
 
 &nbsp;  
-[Voltar ao topo](https://github.com/michelelozada/Git-Versionamento-Basico#comandos-git-versionamento-básico)
+[Voltar ao topo](https://github.com/michelelozada/Git-Versionamento-Basico#git-versionamento-básico)
 
 </div>
