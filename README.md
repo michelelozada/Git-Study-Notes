@@ -371,9 +371,9 @@ $ git help diff
   [Git e GitHub para Iniciantes (por Willian Justen)](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A)  
   [GitHub Docs](https://docs.github.com/en/get-started/getting-started-with-git)  
   
-  **Sites para treinar conceitos de Git**  
-  [Learning Git Branching](https://learngitbranching.js.org/?locale=pt_BR)
-  [Visualizing Git](https://git-school.github.io/visualizing-git/)  
+  **Sites para treinar conceitos de Git**      
+  [Learning Git Branching](https://learngitbranching.js.org/?locale=pt_BR)  
+  [Visualizing Git](https://git-school.github.io/visualizing-git/)    
  </details>
 
 &nbsp;  
