@@ -366,7 +366,7 @@ $ git help diff
 
   &nbsp;
   &nbsp;   
-  [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)
+  [A Visual Git Reference](https://marklodato.github.io/visual-git-guide/index-en.html)  
   [Curso de Git (por Fábio dos Reis)](https://www.youtube.com/playlist?list=PLucm8g_ezqNq0dOgug6paAkH0AQSJPlIe)  
   [Git - Documentation](http://git-scm.com/docs)  
   [Git e GitHub para Iniciantes (por Willian Justen)](https://www.youtube.com/playlist?list=PLlAbYrWSYTiPA2iEiQ2PF_A9j__C4hi0A)  
