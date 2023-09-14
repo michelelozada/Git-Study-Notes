@@ -4,7 +4,8 @@
 &nbsp;
      
 &nbsp;  
-#### :pin: Comandos úteis do Linux  
+
+#### :pushpin: Comandos úteis do Linux  
 
 | Comando | Função
 | :---    | :---
@@ -23,7 +24,7 @@
 
 &nbsp;  
 
-#### Utilizando o editor de texto Vim:  
+#### :pushpin: Utilizando o editor de texto Vim:  
 
 | Comando | Função
 | :---    | :---

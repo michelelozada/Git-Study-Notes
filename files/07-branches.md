@@ -3,8 +3,9 @@
 > GitHub: @michelelozada  
 &nbsp;
      
-&nbsp;  
-### Branches  
+&nbsp;   
+
+#### :pushpin: Branches  
 
 ◦ Criando uma branch local:
 ```sh
@@ -86,8 +87,7 @@ $ git branch -d nome-da-branch
 
 &nbsp;  
        
-### Unindo as branches  
-◦ Fazendo o merge:
+#### :pushpin: Unindo as branches  
 ```sh
 
 $ git merge nome-da-branch-a-ser-mesclada    

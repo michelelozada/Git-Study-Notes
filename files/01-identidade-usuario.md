@@ -4,7 +4,8 @@
 &nbsp;
      
 &nbsp;  
-#### :pin: Configurando a identidade do usuário que realizará o versionamento  
+
+#### :pushpin: Configurando a identidade do usuário que realizará o versionamento  
 ```sh
 
 $ git config --global user.name "nome do usuario aqui"
@@ -12,7 +13,7 @@ $ git config --global user.email "email do usuario aqui"
 ```
 &nbsp; 
 
-#### :pin: Consultando a identidade registrada  
+#### :pushpin: Consultando a identidade registrada  
 ```sh
 
 $ git config user.name 
@@ -21,7 +22,7 @@ $ git config user.email
 
 &nbsp; 
 
-#### :pin: Apagando nome e e-mail setados  
+#### :pushpin: Apagando nome e e-mail setados  
 ```sh
 
 $ git config --global --unset user.name
@@ -30,7 +31,7 @@ $ git config --global --unset user.email
 
 &nbsp; 
 
-#### :pin: Listando todas as configurações  
+#### :pushpin: Listando todas as configurações  
 ```sh
 
 $ git config --list

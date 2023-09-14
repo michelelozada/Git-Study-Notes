@@ -4,7 +4,8 @@
 &nbsp;
      
 &nbsp;  
-#### Efetuando o commit das alterações realizadas no arquivo  
+
+#### :pushpin: Efetuando o commit das alterações realizadas no arquivo  
 
 ◦ Registrando as alterações do projeto
 ```sh

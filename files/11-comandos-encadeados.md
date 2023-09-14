@@ -3,7 +3,8 @@
 > GitHub: @michelelozada  
 &nbsp;
      
-&nbsp;
+&nbsp;  
+
 ◦ Para encadeá-los, os comandos devem ser concatenados com `&&`, sendo que o comando subsequente só será executado se o anterior tiver sido executado sem problemas.  
 ```sh
 

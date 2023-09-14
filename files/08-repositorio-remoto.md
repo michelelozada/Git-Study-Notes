@@ -3,8 +3,9 @@
 > GitHub: @michelelozada  
 &nbsp;
      
-&nbsp;
-### Enviando as modificações para o repositório remoto  
+&nbsp;  
+
+#### :pushpin: Enviando as modificações para o repositório remoto  
 
 ◦ Criando um repositório remoto:
 ```sh
@@ -33,7 +34,7 @@ $ git push origin master
 
 &nbsp;
 
-### Criando uma cópia de um repositório remoto para a máquina local
+#### :pushpin: Criando uma cópia de um repositório remoto para a máquina local
 ```sh
 
 $ git clone colar-link-do-repositorio-aqui  
@@ -42,7 +43,7 @@ $ git clone colar-link-do-repositorio-aqui
 
 &nbsp;
   
-### Atualizando o repositório local com base nas modificações do repositório remoto
+#### :pushpin: Atualizando o repositório local com base nas modificações do repositório remoto
 ```sh
 
 $ git pull origin master

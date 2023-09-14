@@ -1,10 +1,11 @@
-> **Exibindo estado de um arquivo e comparando diferenças**  
+> **Exibindo o estado de um arquivo e comparando diferenças**  
 > Repositório: Git: Versionamento básico  
 > GitHub: @michelelozada  
 &nbsp;
      
 &nbsp;
-#### Exibindo o estado de um arquivo no momento  
+
+#### :pushpin: Exibindo o estado de um arquivo no momento  
 ```sh
 
 $ git status
@@ -12,7 +13,7 @@ $ git status
 
 &nbsp; 
 
-### Comparando diferenças entre arquivos da working area e arquivos da staging area   
+#### :pushpin: Comparando diferenças entre arquivos da working area e arquivos da staging area   
 ```sh
 
 $ git diff

@@ -3,7 +3,8 @@
 > GitHub: @michelelozada  
 &nbsp;
      
-&nbsp;
+&nbsp;  
+
 ◦ Visualizando o histórico das alterações realizadas até o momento:
 ```sh
 

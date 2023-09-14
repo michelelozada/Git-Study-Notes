@@ -6,7 +6,6 @@
 &nbsp;  
 
 ◦ Retornando o arquivo para antes da edição (antes dele ter sido adicionado a staging area)  
---- refazer
 ```sh
 
 $ git checkout nome-do-arquivo

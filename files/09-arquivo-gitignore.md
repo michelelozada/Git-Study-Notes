@@ -3,7 +3,7 @@
 > GitHub: @michelelozada  
 &nbsp;
      
-&nbsp;
+&nbsp;  
 ◦ Se o arquivo for criado pelo terminal:  
 ```sh
 

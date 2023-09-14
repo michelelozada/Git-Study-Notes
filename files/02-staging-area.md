@@ -4,7 +4,8 @@
 &nbsp;
      
 &nbsp;  
-#### :pin: Inicializando um repositório Git  
+
+#### :pushpin: Inicializando um repositório Git  
 
 ◦ Estando na pasta desejada, deve ser indicado ao Git que este será o diretório local a ser usado para o versionamento do projeto  
 ```sh
@@ -14,7 +15,7 @@ $ git init
 
 &nbsp;
      
-#### :pin: Adicionando arquivos não rastreados a staging area  
+#### :pushpin: Adicionando arquivos não rastreados a staging area  
 ◦ Adicionando um arquivo específico (por nome)  
 ```sh
 
@@ -40,7 +41,7 @@ $ git add *.js
 
 &nbsp;
 
-#### :pin: Exibindo arquivos que estão na staging area, mas que ainda não foram commitados  
+#### :pushpin: Exibindo arquivos que estão na staging area, mas que ainda não foram commitados  
 ```sh
 
 $ git diff --staged
@@ -48,7 +49,7 @@ $ git diff --staged
 
 &nbsp;
 
-#### :pin: Retirando um arquivo específico da staging area  
+#### :pushpin: Retirando um arquivo específico da staging area  
 ```sh
 
 $ git rm --cached nome-do-arquivo
