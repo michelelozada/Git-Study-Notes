@@ -17,7 +17,7 @@ Link   | Tópico
 [07](https://github.com/michelelozada/Git-Versionamento-Basico/blob/main/files/07-branches.md) | Branches
 [08](https://github.com/michelelozada/Git-Versionamento-Basico/blob/main/files/08-repositorio-remoto.md) | Trabalhando com o repositório remoto
 [09](https://github.com/michelelozada/Git-Versionamento-Basico/blob/main/files/09-arquivo-gitignore.md) | Criando um arquivo *.gitignore*
-[10](https://github.com/michelelozada/Git-Versionamento-Basico/blob/main/files/10-defazendo-alteracoes.md) | Configurando atalhos para comandos Git
+[10](https://github.com/michelelozada/Git-Versionamento-Basico/blob/main/files/10-atalhos-comandos-git.md) | Configurando atalhos para comandos Git
 [11](https://github.com/michelelozada/Git-Versionamento-Basico/blob/main/files/11-comandos-encadeados.md) | Comandos encadeados
 [12](https://github.com/michelelozada/Git-Versionamento-Basico/blob/main/files/12-ajuda-com-git.md) | Obtendo ajuda com o Git
 [13](https://github.com/michelelozada/Git-Versionamento-Basico/blob/main/files/13-comandos-linux-vim.md) | Extra: Comandos úteis do Linux e do Vim  

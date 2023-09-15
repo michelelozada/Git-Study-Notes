@@ -1,13 +1,13 @@
 > **Inicializando um repositório Git e adicionando arquivos a staging area**  
 > Repositório: Git: Versionamento básico  
-> GitHub: @michelelozada  
+> GitHub: @michelelozada
 &nbsp;
      
 &nbsp;  
 
 #### :pushpin: Inicializando um repositório Git  
 
-◦ Estando na pasta desejada, deve ser indicado ao Git que este será o diretório local a ser usado para o versionamento do projeto  
+Estando na pasta desejada, deve ser indicado ao Git que este será o diretório local a ser usado para o versionamento do projeto  
 ```sh
 
 $ git init 

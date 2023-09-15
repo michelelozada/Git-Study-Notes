@@ -1,10 +1,10 @@
 > **Obtendo ajuda com o Git**  
 > Repositório: Git: Versionamento básico  
-> GitHub: @michelelozada  
+> GitHub: @michelelozada
 &nbsp;  
      
 &nbsp;  
-
+**Comando básico**  
 ```sh
 
 $ git help
@@ -12,7 +12,7 @@ $ git help
 
 &nbsp;
 
-◦ Caso seja escrito o nome do comando, logo após o git help, abrirá no navegador a página do manual com explicações a seu respeito  
+**Caso seja escrito o nome do comando, logo após o `git help`, abrirá no navegador a página do manual com explicações a seu respeito**  
 ```sh
 
 $ git help fetch

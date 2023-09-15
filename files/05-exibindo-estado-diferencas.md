@@ -1,6 +1,6 @@
 > **Exibindo o estado de um arquivo e comparando diferenças**  
 > Repositório: Git: Versionamento básico  
-> GitHub: @michelelozada  
+> GitHub: @michelelozada
 &nbsp;
      
 &nbsp;

@@ -1,6 +1,6 @@
 > **Efetuando o commit das alterações**  
 > Repositório: Git: Versionamento básico  
-> GitHub: @michelelozada  
+> GitHub: @michelelozada
 &nbsp;
      
 &nbsp;  

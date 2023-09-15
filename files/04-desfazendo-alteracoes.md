@@ -1,11 +1,11 @@
 > **Desfazendo alterações**    
 > Repositório: Git: Versionamento básico  
-> GitHub: @michelelozada  
+> GitHub: @michelelozada
 &nbsp;
      
 &nbsp;  
 
-◦ Retornando o arquivo para antes da edição (antes dele ter sido adicionado a staging area)  
+**Retornando o arquivo para antes da edição (antes dele ter sido adicionado a staging area)**  
 ```sh
 
 $ git checkout nome-do-arquivo
@@ -13,7 +13,7 @@ $ git checkout nome-do-arquivo
 
 &nbsp;
 
-◦ Retirando um arquivo da gravação (depois dele ter sido adicionado a staging area)    
+**Retirando um arquivo da gravação (depois dele ter sido adicionado a staging area)** 
 ```sh
 
 $ git reset HEAD nome-do-arquivo
@@ -21,7 +21,7 @@ $ git reset HEAD nome-do-arquivo
 
 &nbsp;
 
-◦ Desfazendo o último commit da gravação  
+**Desfazendo o último commit da gravação**   
 ```sh
 
 $ git reset HEAD~1   
@@ -29,7 +29,7 @@ $ git reset HEAD~1
 
 &nbsp;
 
-◦ Removendo um arquvio do repositório
+**Removendo um arquivo do repositório**  
 ```sh
 
 $ git rm nome-do-arquivo

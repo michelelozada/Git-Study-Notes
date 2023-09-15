@@ -1,6 +1,6 @@
 > **Trabalhando com o repositório remoto**  
 > Repositório: Git: Versionamento básico  
-> GitHub: @michelelozada  
+> GitHub: @michelelozada
 &nbsp;
      
 &nbsp;  
@@ -13,8 +13,8 @@
 $ git remote add origin colar-link-aqui
 ```
 
-◦ O link acima é o endereço do repositório criado previamente no GitHub  
-◦ `origin` é o nome default do repositório; se desejar, pode ser alterado  
+*\* O link acima é o endereço do repositório criado previamente no GitHub*  
+*\* `origin` é o nome default do repositório; se desejar, pode ser alterado*  
 
 &nbsp; 
 
@@ -39,7 +39,7 @@ $ git push origin master
 
 $ git clone colar-link-do-repositorio-aqui  
 ```
-:bulb: O link acima é o endereço do repositório a ser copiado do GitHub  
+*\* O link acima é o endereço do repositório a ser copiado do GitHub*  
 
 &nbsp;
   

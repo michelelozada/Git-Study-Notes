@@ -1,15 +1,15 @@
-> **Criando um arquivo .gitignore**  
+> **Criando um arquivo *.gitignore***  
 > Repositório: Git: Versionamento básico  
-> GitHub: @michelelozada  
+> GitHub: @michelelozada
 &nbsp;
      
 &nbsp;  
-◦ Se o arquivo for criado pelo terminal:  
+**Se o arquivo for criado pelo terminal:**  
 ```sh
 
 $ touch .gitignore
 
-\* Após criado, incluir ali quais arquivos, pastas ou extensões (ex: *.txt) não se deseja que sejam 'trackeados'.
+-- incluir aqui quais os arquivos, pastas ou extensões que se deseja que não sejam 'trackeados'.
 ```
 &nbsp;  
 

@@ -1,10 +1,9 @@
 > **Configurações de identidade do usuário**  
 > Repositório: Git: Versionamento básico  
-> GitHub: @michelelozada  
+> GitHub: @michelelozada
 &nbsp;
      
 &nbsp;  
-
 #### :pushpin: Configurando a identidade do usuário que realizará o versionamento  
 ```sh
 

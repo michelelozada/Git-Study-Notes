@@ -1,11 +1,11 @@
 > **Examinando o histórico de alterações**  
 > Repositório: Git: Versionamento básico  
-> GitHub: @michelelozada  
+> GitHub: @michelelozada
 &nbsp;
      
 &nbsp;  
 
-◦ Visualizando o histórico das alterações realizadas até o momento:
+**Visualizando o histórico das alterações realizadas até o momento:**  
 ```sh
 
 $ git log   
@@ -13,7 +13,7 @@ $ git log
 
 &nbsp;
 
-◦ Visualizando o histórico das alterações realizadas apenas em um arquivo específico:
+**Visualizando o histórico das alterações realizadas apenas em um arquivo específico:**  
 ```sh
 
 $ git log nome-do-arquivo  
@@ -21,7 +21,7 @@ $ git log nome-do-arquivo
 
 &nbsp;
 
-◦ Para informações das alterações do último commit realizado  
+**Para informações das alterações do último commit realizado:**  
 ```sh
 
 $ git show
@@ -29,8 +29,7 @@ $ git show
 
 &nbsp;
 
-◦ Para informações das alterações de um arquivo específico
-
+**Para informações das alterações de um arquivo específico:**  
 ```sh
 
 $ git show hash-do-commit  
@@ -38,7 +37,7 @@ $ git show hash-do-commit
 
 &nbsp;
 
-◦ Para exibir informações e alterações do commit 
+**Para exibir informações e alterações do commit:**  
 ```sh
 
 $ git log -p  
@@ -46,7 +45,7 @@ $ git log -p
 
 &nbsp;
 
-◦ No exemplo abaixo, para retornar apenas os dois últimos commits  
+**No exemplo abaixo, para retornar apenas os dois últimos commits:**   
 ```sh
 
 $ git log -p -2  
@@ -54,8 +53,7 @@ $ git log -p -2
 
 &nbsp;
 
-◦ Para retornar estatísticas sobre os commits realizados  
-
+**Para retornar estatísticas sobre os commits realizados:**  
 ```sh
 
 $ git log --stat -2  
@@ -63,7 +61,7 @@ $ git log --stat -2
 
 &nbsp;
 
-◦ Para retornar o log resumido de cada commit em uma única linha  
+**Para retornar o log resumido de cada commit em uma única linha:**  
 ```sh
 
 $ git log --pretty=oneline
@@ -71,7 +69,7 @@ $ git log --pretty=oneline
 
 &nbsp;
 
-◦ Neste exemplo, para retornar o log dos commits realizados nos 2 últimos dias  
+**Neste exemplo, para retornar o log dos commits realizados nos 2 últimos dias:**  
 ```sh
 
 $ git log --since=2.days 

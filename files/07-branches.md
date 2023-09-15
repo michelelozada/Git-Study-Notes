@@ -1,13 +1,10 @@
 > **Branches**  
 > Repositório: Git: Versionamento básico  
-> GitHub: @michelelozada  
+> GitHub: @michelelozada
 &nbsp;
      
 &nbsp;   
-
-#### :pushpin: Branches  
-
-◦ Criando uma branch local:
+**Criando uma branch local:**  
 ```sh
 
 $ git branch nome-da-nova-branch
@@ -15,7 +12,7 @@ $ git branch nome-da-nova-branch
 
 &nbsp;  
 
-◦ Acessando uma branch:
+**Acessando uma branch:**  
 ```sh
 
 $ git checkout nome-da-branch
@@ -23,7 +20,7 @@ $ git checkout nome-da-branch
 
 &nbsp;  
 
-◦ Criando e sendo redirecionado para uma nova branch:
+**Criando e sendo redirecionado para uma nova branch:**  
 ```sh
 
 $ git checkout -b nome-da-nova-branch
@@ -31,7 +28,8 @@ $ git checkout -b nome-da-nova-branch
 
 &nbsp;  
 
-◦ Listando todas as branches existentes no repositório: *(branch em trabalho estará destacada em verde, caso haja mais de uma)*
+**Listando todas as branches existentes no repositório:**  
+*\* Branch em trabalho estará destacada em verde, caso haja mais de uma*  
 ```sh
 
 $ git branch     
@@ -39,7 +37,7 @@ $ git branch
 
 &nbsp;  
 
-◦ Para listar as branches com seus respectivos logs de commits realizados:  
+**Para listar as branches com seus respectivos logs de commits realizados:**    
 ```sh
 
 $ git branch -v   
@@ -47,7 +45,7 @@ $ git branch -v
 
 &nbsp;  
 
-◦ Listando as branches existentes no repositório remoto:
+**Listando as branches existentes no repositório remoto:**  
 ```sh
 
 $ git branch -r    
@@ -55,7 +53,7 @@ $ git branch -r
 
 &nbsp;  
 
-◦ Redirecionando para outra branch do repositório:
+**Redirecionando para outra branch do repositório:**  
 ```sh
 
 $ git checkout nome-da-outra-branch
@@ -63,7 +61,7 @@ $ git checkout nome-da-outra-branch
 
 &nbsp;  
 	
-◦ Voltando para a branch master:
+**Voltando para a branch master:**  
 ```sh
 
 $ git checkout master    
@@ -71,7 +69,7 @@ $ git checkout master
 
 &nbsp;  
 
-◦ Alterando o nome da branch principal de master (padrão do Git Bash) para main
+**Alterando o nome da branch principal de master (padrão do Git Bash) para main:**  
 ```sh
 
 $ git branch -M main
@@ -79,7 +77,7 @@ $ git branch -M main
 
 &nbsp;  
 
-◦ Deletando uma branch:
+**Deletando uma branch:**  
 ```sh
 
 $ git branch -d nome-da-branch    
@@ -87,7 +85,7 @@ $ git branch -d nome-da-branch
 
 &nbsp;  
        
-#### :pushpin: Unindo as branches  
+**Unindo as branches:**  
 ```sh
 
 $ git merge nome-da-branch-a-ser-mesclada    

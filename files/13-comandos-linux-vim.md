@@ -1,6 +1,6 @@
 > **Extra: Comandos úteis do Linux e do Vim**  
 > Repositório: Git: Versionamento básico  
-> GitHub: @michelelozada  
+> GitHub: @michelelozada
 &nbsp;
      
 &nbsp;  
@@ -32,7 +32,7 @@
 | i                      | Entra no modo insert  
 | ESC                    | Sai do modo insert  
 | :w                     | Salva o arquivo  
-| :w *novo-arquivo*      | Salva novo nome para arquivo
+| :w *novo-nome*         | Salva novo nome para arquivo
 | :q                     | Sai do editor  
 | :wq                    | Salva o conteúdo e sai do editor  
 
