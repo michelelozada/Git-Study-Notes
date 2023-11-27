@@ -15,7 +15,7 @@ $ git config --global alias.br branch
 
 &nbsp;
 
-**Depois disso, os comandos assumem então então estes aliases recém-atribuídos**  
+**Depois disso, os comandos assumem então estes aliases recém-atribuídos**  
 ```sh
 
 $ git st
