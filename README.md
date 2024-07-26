@@ -8,7 +8,6 @@
 &nbsp;  
 Link   | Tópico 
 :---:  | :---
-
 [01](https://github.com/michelelozada/Git-Study-Notes/blob/main/files/01-glossaario-git.md) | Glossário de termos relacionados ao Git
 [02](https://github.com/michelelozada/Git-Study-Notes/blob/main/files/02-comandos-git.md) | Comandos Git - referência rápida 
 [03](https://github.com/michelelozada/Git-Study-Notes/blob/main/files/03-identidade-usuario.md) | Configurações de identidade do usuário
