@@ -1,30 +1,30 @@
-> **Extra: Comandos úteis do Linux e do Vim**  
-> Repositório: Git: Versionamento básico  
+> **Extra: Comandos úteis do Linux**  
+> Repositório: Git - Notas de estudo  
 > GitHub: @michelelozada
 &nbsp;
      
 &nbsp;  
 
-#### :pushpin: Comandos úteis do Linux  
+### Comandos úteis do Linux  
 
 | Comando | Função
 | :---    | :---
+| cat     | Exibe o conteúdo de um arquivo no terminal  
 | cd      | Seguido ao nome do diretório, acessa-o
 | cd ..   | Retrocede um nível de diretório
 | cd /    | Acessa o diretório raiz
+| clear   | Limpa a tela do terminal  
+| exit    | Fecha o terminal
 | ls      | Lista o conteúdo do diretório em que o usuário está no momento *(exceto os arquivos ocultos)*   
 | ls -a   | Lista o conteúdo do diretório em que o usuário está no momento *(inclusive os arquivos ocultos)*    
 | mkdir   | Cria um diretório   
-| touch   | Cria um arquivo vazio  
 | mv      | Move um arquivo e/ou diretório
-| cat     | Exibe o conteúdo de um arquivo no terminal  
 | pwd     | Informa o diretório em que o usuário está no momento   
-| clear   | Limpa a tela do terminal  
-| exit    | Fecha o terminal
+| touch   | Cria um arquivo vazio  
 
 &nbsp;  
 
-#### :pushpin: Utilizando o editor de texto Vim:  
+### Comandos úteis do Vim:  
 
 | Comando | Função
 | :---    | :---
@@ -39,5 +39,5 @@
 &nbsp;
 
 <div align="center">
-<a href="https://github.com/michelelozada/Git-Versionamento-Basico">[Voltar à tela inicial do repositório]</a>
+<a href="https://github.com/michelelozada/Git-Study-Notes">[Voltar à tela inicial do repositório]</a>
 </div>
