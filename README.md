@@ -2,18 +2,17 @@
   <img src="./assets/git.png">
   <h2>Git - Notas de Estudo</h2>
   <h3>⬝&nbsp; Tela Inicial &nbsp;⬝</h3>
-	
 &nbsp;
-     
-&nbsp;  
+&nbsp;
+
 Link   | Tópico 
 :---:  | :---
-[01](https://github.com/michelelozada/Git-Study-Notes/blob/main/files/01-glossaario-git.md) | Glossário de termos relacionados ao Git
+[01](https://github.com/michelelozada/Git-Study-Notes/blob/main/files/01-glossario-git.md) | Glossário de termos relacionados ao Git
 [02](https://github.com/michelelozada/Git-Study-Notes/blob/main/files/02-comandos-git.md) | Comandos Git - referência rápida 
 [03](https://github.com/michelelozada/Git-Study-Notes/blob/main/files/03-identidade-usuario.md) | Configurações de identidade do usuário
 [04](https://github.com/michelelozada/Git-Study-Notes/blob/main/files/04-staging-area.md) | Inicializando um repositório Git e adicionando arquivos na staging area
 [05](https://github.com/michelelozada/Git-Study-Notes/blob/main/files/05-commitando-alteracoes.md) | Efetuando o commit das alterações 
-[06](https://github.com/michelelozada/Git-Study-Notes/blob/main/files/06-defazendo-alteracoes.md) | Desfazendo alterações  
+[06](https://github.com/michelelozada/Git-Study-Notes/blob/main/files/06-desfazendo-alteracoes.md) | Desfazendo alterações  
 [07](https://github.com/michelelozada/Git-Study-Notes/blob/main/files/07-exibindo-estado-diferencas.md) | Exibindo o estado de um arquivo e comparando diferenças
 [08](https://github.com/michelelozada/Git-Study-Notes/blob/main/files/08-historico-alteracoes.md) | Examinando o histórico de alterações
 [09](https://github.com/michelelozada/Git-Study-Notes/blob/main/files/09-branches.md) | Branches
