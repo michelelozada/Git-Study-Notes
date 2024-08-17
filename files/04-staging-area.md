@@ -17,7 +17,7 @@ $ git init
 &nbsp;
      
 ### Adicionando arquivos não rastreados a staging area  
-*Ao executar o comando `git add`, o Git analisa o estado atual do(s) arquivo(s) no diretório e adiciona todas as modificações (modificações, novos arquivos, remoções) à staging area. Isso significa que estas mudanças passam a estar preparadas para serem incluídas no próximo commit.*
+*Ao executar o comando `git add`, o Git analisa o estado atual do(s) arquivo(s) no diretório e adiciona todas as modificações (adições, modificações e exclusões) na staging area. Isso significa que estas mudanças passam a estar preparadas para serem incluídas no próximo commit.*
 
 &nbsp;
 

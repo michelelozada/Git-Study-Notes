@@ -4,9 +4,26 @@
 &nbsp;
      
 &nbsp;   
-### Criando uma branch 
 
-↳ *Criando uma branch local*
+> Cada branch é uma linha de desenvolvimento separada que permite que se trabalhe em funcionalidades específicas do projeto sem interferir diretamente no código principal.
+
+&nbsp;   
+
+> Quando um repositório Git é iniciado e o primeiro commit feito sem a criação explícita de uma nova branch, o Git considera que se trabalhando na branch padrão, que tradicionalmente é chamada de master. Isso significa que todos os commits iniciais são registrados nessa branch principal.
+
+&nbsp;   
+
+> Você pode criar várias branches a partir do repositório principal para trabalhar em diferentes funcionalidades ou correções, e eventualmente mesclar essas branches de volta ao repositório principal.
+
+&nbsp;   
+
+> Branch Local: É a ramificação do seu código que está armazenada no repositório local. 
+> Branch Remota: É a versão da branch que está armazenada no repositório remoto (origin). 
+> Cada branch local pode ter uma branch correspondente no repositório remoto, que é usada para sincronizar suas mudanças com outros colaboradores.
+
+### Criando uma branch local
+
+↳ *Criando uma branch*
 ```bash
 
 $ git branch nome-da-nova-branch  
@@ -14,7 +31,7 @@ $ git branch nome-da-nova-branch
 
 &nbsp;  
 
-↳ *Criando uma branch local e acessando ela*
+↳ *Criando e acessando uma branch*
 ```bash
 
 $ git checkout -b nome-da-nova-branch  

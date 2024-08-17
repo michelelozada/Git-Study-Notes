@@ -1,4 +1,4 @@
-> **Examinando o histórico de alterações**  
+> **Alterações no Git: examinando o histórico**  
 > Repositório: Git - Notas de estudo  
 > GitHub: @michelelozada
 &nbsp;

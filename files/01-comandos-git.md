@@ -1,4 +1,4 @@
-> **Comandos Git - Referência rápida**    
+> **Comandos Git, uma referência rápida**    
 > Repositório: Git - Notas de estudo  
 > GitHub: @michelelozada
 &nbsp;
@@ -6,7 +6,7 @@
 &nbsp;  
 
 ### git add
-Utilizado para adicionar novos arquivos/modificações dos arquivos na staging area para prepará-los para o commit.
+Utilizado para adicionar modificações dos arquivos na staging area, preparando-as para o commit.
 
 &nbsp;   
 
@@ -29,7 +29,7 @@ Utilizado para copiar um repositório Git remoto para a máquina local.
 &nbsp;   
 
 ### git commit
-Utilizado para confirmar as mudanças feitas nos arquivos adicionados na staging area, criando um novo commit no repositório.
+Utilizado para gravar as modificações (adicições, modificações e exclusões) feitas nos arquivos adicionados na staging area, criando assim um novo commit no repositório.
 
 &nbsp;   
 
@@ -38,23 +38,33 @@ Utilizado para definir a identidade do usuário, como nome e email e para setar 
 
 &nbsp;   
 
+#### git diff 
+Utilizado para exibir as diferenças entre o working directory e a staging area ou entre a staging area e o último commit.
+
+&nbsp;   
+
+#### git fetch
+Utlizado para baixar todas as atualizações de um repositório remoto para um repositório local, atualizando o histórico local e as referências de branches, *mas sem aplicar essas mudanças ao  diretório de trabalho nem a branch atual*. Ideal para revisões de  alterações, antes da decisão delas serem mescladas/integradas ao código local.
+
+&nbsp;  
+
 ### git init 
 Utilizado para inicializar um novo repositório Git em um diretório específico.
 
 &nbsp;   
 
 ### git pull
-Utilizado para buscar as alterações do repositório remoto e mesclá-las automaticamente com o repositório local, atualizando-o com as últimas modificações.
+Utilizado para obter as alterações do repositório remoto (ou seja, um `git fetch`) e mesclá-las automaticamente com o repositório local (ou seja, um `git merge`), atualizando-o com as últimas modificações.
 
 &nbsp;   
 
 ### git push 
-Utilizado para enviar os commits locais para um repositório remoto, atualizando-o com as alterações feitas localmente.
+Utilizado para enviar alterações locais para um repositório remoto.
 
 &nbsp;   
 
 ### git remote
-Utilizado para gerenciar repositórios remotos no Git.
+Utilizado para gerenciar repositórios remotos configurados para o repositório local
 
 &nbsp;   
 
@@ -64,7 +74,7 @@ Utilizado para exibir informações detalhadas sobre um commit específico: alte
 &nbsp;  
 
 ### git status
-Utilizado para verificar o estado atual de um repositório local, mostrando quais arquivos estão modificados, adicionados ou removidos.
+Utilizado para verificar o estado atual de um repositório local, mostrando quais arquivos foram modificados, adicionados ou removidos em comparação com o último commit.
 
 &nbsp;   
 

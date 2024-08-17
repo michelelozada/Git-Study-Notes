@@ -6,17 +6,17 @@
 &nbsp;  
 
 ## Branch
-É uma cópia independente do código-fonte de um repositório Git, permitindo o desenvolvimento paralelo de funcionalidades sem interferir na branch principal (tradicionalmente chamada de master ou main).
+É uma referência independente a um ponto específico no histórico do código-fonte de um repositório. Ela permite o desenvolvimento paralelo de funcionalidades ou correções sem interferir na branch principal (chamada de master ou main). Cada branch pode ter seu próprio conjunto de commits; e mudanças feitas em uma branch não afetam outras até que elas sejam mescladas.
 
 &nbsp;   
 
-## Change 
-Uma modificação ou mais modificações realizadas em um repositório Git, que pode incluir adição, remoção ou modificação de arquivos ou de  linhas de código.
+## Changes
+Como o nome diz, são consideradas alterações realizadas nos arquivos do diretório de trabalho (working directory).
 
 &nbsp;   
 
 ## Clone
-O ato de criar uma cópia local completa de um repositório Git existente remotamente, incluindo todos os arquivos, histórico de commits e branches. 
+O ato de criar uma cópia local completa de um repositório Git existente, incluindo todos os arquivos, histórico de commits e branches. 
   
 &nbsp;   
 
@@ -36,7 +36,7 @@ Condição atual de arquivos, commits e referências (como as branches) dentro d
 &nbsp;   
   
 ## Fetch
-Um comando Git que baixa todas as atualizações do repositório remoto para o repositório local, atualizando o histórico local e as referências de branches, mas sem aplicar essas mudanças ao seu diretório de trabalho.
+Um comando Git que baixa todas as atualizações do repositório remoto para o repositório local, atualizando o histórico local e as referências de branches, *mas sem aplicar essas mudanças ao  diretório de trabalho nem a branch atual*. Ideal para revisões de  alterações, antes da decisão delas serem mescladas/integradas ao código local.
 
 &nbsp;   
   
@@ -61,7 +61,7 @@ Um valor único de identificação gerado pelo Git para representar um commit, u
 &nbsp;  
 
 ## HEAD
-O ponteiro que aponta para a branch atualmente selecionada no seu repositório Git. Ele representa o último commit feito na branch atual e serve como ponto de partida para novas alterações.
+É um ponteiro que aponta para o commit mais recente na branch branch atualmente selecionada no seu repositório Git e serve como ponto de partida para novas alterações.
 
 &nbsp;   
 
@@ -112,6 +112,11 @@ Um comando Git que envia as alterações feitas no repositório local para o rep
 
 ## Staging area    
 Área intermediária no Git onde você prepara seus arquivos antes de confirmar as mudanças definitivamente com `git commit`.
+
+&nbsp;   
+
+## Tracking
+Mecanismo que permite que branches locais acompanhem e sincronizem com branches remotas. Ou seja, que uma branch local "trackeie" uma branch remota. 
 
 &nbsp;   
 

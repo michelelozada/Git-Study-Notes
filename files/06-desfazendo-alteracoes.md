@@ -1,8 +1,19 @@
-> **Desfazendo alterações**  
+> **Alterações no Git: desfazendo commits**  
 > Repositório: Git - Notas de estudo  
 > GitHub: @michelelozada
 &nbsp;
      
+&nbsp;  
+
+### Desfazendo commits
+````bash
+
+git revert hash-do-commit-aqui
+````
+
+> Para encontrar o hash do commit, deve ser utilizado o seguinte comando: `git log`.
+``
+
 &nbsp;  
 
 ### Retornando o arquivo para antes da edição (antes dele ter sido adicionado a staging area)
